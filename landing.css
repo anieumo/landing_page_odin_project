@@ -1,0 +1,199 @@
+
+/* header begin*/
+.head {
+    margin: 5px 100px 5px;
+}
+
+ul {
+
+    list-style-type: none;
+}
+.header {
+    margin: 5px 100px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(223, 194, 194);
+    margin: 5px;
+}
+
+.header_logo {
+    /*coffee logo*/
+    font-weight: bolder;
+    text-align: left;
+    font-size: 70px;
+    margin: 50px 0px 0px;
+    align-items: left;
+    padding: 10px;
+}
+
+.links {
+    /* removes the dots from the unordered list*/
+    display: flex;
+    color: white;
+    font-size: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: plum;
+}
+
+.container{
+    /*text:this website is awesome*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.text {
+    font-size: 80px;
+    font-weight: bold;
+    color:rgb(240, 240, 240);
+}
+
+.textinsert {
+    margin: 0px 100px 0px;
+    /*this website has subtext*/
+    font-size: 20px;
+    color:rgb(230, 193, 187)
+}
+
+button {
+    border: none;
+    align-items: center;
+    border-radius: 60px;
+    background: brown;
+    color: white;
+    padding: 5px 14px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    size: 300px;
+}
+/* header end*/
+/* middle content boxes*/
+
+title {
+    font-family:'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.infotext {
+}
+.textinfo {
+    /* tpyes of coffee*/
+    color:rgb(255, 207, 145);
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.textcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 50px; 
+    flex-flow: row;
+    align-items: center;
+}
+.text {
+    font-size: 16px;
+    margin: 20px;
+    color: rgb(245, 245, 245);
+}
+.content-img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(41, 30, 28);
+    border-radius: 20px;
+}
+.content-img:hover {
+    opacity: .5;
+}
+
+p {
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+/*testimonal, part 3*/
+.testimonial {
+    margin: 120px 100px 5px;
+}
+.texttestimonial {
+    margin: 120px 150px 5px;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    color:rgb(197, 148, 141);
+}
+.textcustomer {
+    text-align: right;
+    font-size: 30px;
+    font-style: italic;
+    margin: 0px 300px 0px;
+    color: rgb(255, 255, 255);
+}
+/*call to action*/
+.calltoaction {
+    margin: 100px 300px 5px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(216, 176, 176);
+    color: white;
+    padding: 2px 4px;
+    color: white;
+}
+.textcalltoaction {
+    color: white;
+    text-align: left;
+    gap: 40px;
+    margin: 10px 100px 0px;
+}
+.textcalltoaction2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    text-align: left;
+    gap: 40px;
+    margin: 10px;
+}
+
+.textcalltoactionsubtext {
+    margin: 30px 0px 30px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(158, 80, 35);
+}
+h4 {
+    margin: 0px 0px 0px;
+    text-align: left;
+    font-size: bold;
+    color: rgb(255, 255, 255);
+}
+h5 {
+    margin: 0px 0px 0px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.buybutton {
+    margin: 0px 30px 0px;
+}
